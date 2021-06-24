@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Saksham's Portfolio</title>
+  <link rel="icon" href="Image/engineer.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	 integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body class="container-fluid body_section">
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+     
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+        <header>
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand brand-name" href="#">Saksham Kapil</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="#Home">Home</a>
+                    </li>
+		    <li class="nav-item">
+                      <a class="nav-link headerachor" href="#mainabout">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="#Section10">Education</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="#contact">Contact Me</a>
+                    </li>
+                  </ul>
+              </nav>
+          </header>
+
+          <section id = "Home">
+              <div class="row column1">
+                <div class="col-lg-6 col-md-6 first-image">
+                    <img class = "boyimage" src="Image/hadder.gif" alt="">
+                </div>  
+                  <div class="col-lg-6 section-1">
+                      <h1 class = "Hello">Hello All ! I'm Saksham <span class="wave">👋</span></h1>
+                      <p>A passionate Developer having an experience in Data Analystics,
+                          Machine Learning and Web Development and want to develop sustainable and 
+                          scalable social and technical systems to create impact</p>
+                          <div class=social_media_icon>
+                            <a class="btn" href="https://www.instagram.com/_saksham_kapil//" target=_blank>
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn" href="https://www.linkedin.com/in/saksham-kapil/" target=_blank>
+                              <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a class="btn" href="https://github.com/SAKSHAM0001" target=_blank>
+                              <i class="fab fa-github"></i>
+                            </a>
+                            <a class="btn" href="mailto:sakshamkapil25@gmail.com" target=_blank>
+                              <i class="fab fa-google"></i>
+                            </a>
+                          </div><br><div><a class="sayhello" href="mailto:saksham_kapil@yahoo.com?Subject=Hello%20Saksham"
+                target="_top">Say Hello <span class="wave">👋</span></a></div>
+                  </div>
+                  <div class="Image-boy col-lg-6"><img class="boy" src="Image/hadder.gif" alt=""></div>
+              </div>
+          </section>
+
+<section id="mainabout" class="section-2">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="Image/photo11.jpeg" alt="my-pic" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h2>About</h2>
+                <h3>Saksham Kapil</h3>
+                <h4>Computer Science Student at Lovely Professional University.</h4>
+                <p>
+                  I'm a passionate learner who's always willing to learn and
+                  work across technologies and domains. I'm currently working
+                  on my Data Structures and Algorithms. I love to explore new 
+                 technologies and leverage them to solve real life problems.
+                </p>
+                <h4>SKILLS</h4>
+                <p>
+                  C, C++, Javascript, Python, HTML5,<br />
+                  CSS3, MongoDB, MySQL, java, Git, <br />
+                  Github, Eclipse, Jupyter, Dev-C++
+                </p>
+
+                <h6>You can find my Resume here</h6>
+                <br />
+
+                <a class="btn btn-light px-3 py-1.5" href="Image/Saksham-kapil-resume.pdf"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+ </section>
+ 
+          <section id=Whatido>
+            <h1>What I Do ?</h1>
+              <div class = "row feature-1">
+                  <div class="col-lg-6 col-md-6 Feature-first-image ">
+                    <img class = "Feature-svg-image" src="Image/Data_Analysis.svg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <h1 class= "Feature-Heading" >Data Analytics & ML</h1>
+                    <ul class = "dev-icon">
+                      <li><i class="fab fa-python fa-5x" style="color:#3776ab"></i></li>
+                      <li><img class="numpy" src="Image/numpy-ar21.svg" alt=""></li>
+                      <li><img class = "pandas" src="Image/kindpng_5747046.png" alt=""></li>
+                    </ul>
+                    <div class = "Data-Analytic">
+                      <p class ="Features-paragraph">
+                         💥 Developing Models that cleaning, tranforming and analyse Raw data to discover useful informations,
+                         in order to make conclusions about the informations.</p>
+                      <p  class ="Features-paragraph">
+                         💥 Experience of working with different python Libraries like Numpy,Pandas,Matplotlib,Seaborn etc and have knowlege of
+                        Data analyitical algorithm and techniques.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="row feature-2">
+                <div class="col-lg-6 col-md-6 Feature-third-image">
+                  <h1 class="Feature-Heading">Data Structure and Algorithms</h1>
+                <ul class = "dev-icon">
+                     <li></li>
+                     <li><i class="fas fa-laptop-code fa-4x"></i></li>
+                     
+                     <li><i class="fas fa-file-code fa-4x" style="color: #a8afcb;"></i></li>
+                    </ul>
+                 <div class = "Data-Analytic">
+                      <p class ="Features-paragraph">
+                         💥 I have knowledge of Data Structure like Hash Tables, Trees, Tries, Graphs, and various algorithms for solving various problems efficiently.</p>
+                      <p  class ="Features-paragraph">
+                         💥 As I know Data Structure and Algorithms are the heart of programming, So I loves to solve programming question in different competitive website like codeforce,codechef,hackerrank and many more.</p>
+                        </div>
+                </div>
+                <div class="col-lg-6 col-md-6 Feature-second-image ">
+                  <img class = "Feature-svg-image" src="Image/coding.svg" alt="">
+                </div>
+              </div>
+                            
+        
+          </section>
+
+
+ 
+  <section id=Section10 class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
+					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div> </div>
+				
+    </section>
+    <section id=section3>
+        <div class="Heading">
+            <h1>Certifications</h1>
+        </div>
+        <div class="container certificate">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top"
+                        src="Image/C++.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text certificate-text">C++ with Data Structure and Algorithms
+                            <br><span style="color:gray">-by Coding blocks</span>
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top"
+                        src="Image/JavaScript.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text certificate-text">JavaScript Basics</p>
+                        <p class="certificate-text" style="color:gray">-by Sololearn</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top"
+                        src="Image/Data Science.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text certificate-text">Data Science</p>  
+                        <p class="certificate-text" style="color:gray">-by _____</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>          
+<div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                           <!--	<span class="heading-meta">My Specialty</span> -->
+                           <h2>Programming Profiles</h2>
+                           <hr>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://www.codechef.com/users/saksham_kapil">
+                                    <p style="color:firebrick">Codechef</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://stackoverflow.com/">
+                                    <p style="color:darkorange">StackOverflow</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://auth.geeksforgeeks.org/user/sakshamkapil/profile">
+                                    <p style="color:darkgreen">Geekforgeeks</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://www.hackerearth.com/@_saksham_kapil">
+                                    <p style="color:dimgrey">HackerEarth</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://www.hackerrank.com/_Saksham_Kapil">
+                                    <p style="color:forestgreen">HackerRank</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                           <div class="progress-wrap">
+                              <strong>
+                                 <a href="https://github.com/SAKSHAM0001">
+                                    <p style="color:black">GitHub</p>
+                                 </a>
+                              </strong>
+                           </div>
+                        </div>
+                     </div>
+    </section>
+ 
+<section id="Projects" class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">Projects I have done</h1>
+          <p class="text-secondary">My Project uses various technology to make the model more accurate and stable. As of
+                            Now I didn't done many projects but in near feature I will make more projects. Kindly visit My Github Profile for My Projects: <a href="https://github.com/SAKSHAM0001">Saksham Kapil</a></p>
+        </div>
+        <div class="cards">
+          <div class="d-flex flex-md-row flex-wrap justify-content-center">
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="Image/6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Income Tax Calculator</h4>
+                <p class="card-text">
+                  Created Income Tax Calculator using technologies like
+                  python, MySQL, Tkinter.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/SAKSHAM0001/Income-Tax-Calculation-System"
+                  target="_blank"
+                  class="card-link"
+                  >Project link</a
+                >
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="Image/7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Grocery Website</h4>
+                <p class="card-text">Created Grocery Website using technologies like HTML, CSS, Javascript</p>
+              </div>
+              <div class="card-body">
+                <a href="https://saksham0001.github.io/cse326html/" target="_blank" class="card-link">Live Demo </a>   
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="Image/background-def.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">New Project 3</h4>
+                <p class="card-text">Not Listed Yet.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+<section id="contact">
+        
+        </section>
+   
+<!---   <footer class=footer>Made with ❤️ by Ajit Verma</footer>--->
+    <footer>  <div id=footer class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-7">
+            <h4 class="text-light">Thank you for your visit to me.....</h4>
+            <p class="text-light">For any suggestion you can mail me<br><i class="fas fa-envelope"></i> : saksham_kapil@yahoo.com
+	       <br>
+		<i class="fas fa-map-marker-alt"></i>  : VPO-Nalhera Gujjar,Saharanpur,247451</p>
+           </div>
+          <div class="col-md-5">
+            <h2 class="text-light" align="center">SAKSHAM KAPIL</h2>
+           <p class="text-light" align="center">Let us be social on</p> 
+            <div class="column text-light" align="center">
+              <a href="https://www.linkedin.com/in/saksham-kapil/"
+                ><i class="fab fa-linkedin"></i
+              ></a> 
+              <a href="https://www.github.com/SAKSHAM0001" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <!--
+              <a href="https://www.facebook.com/SAKSHAMKAPIL" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a> 
+              -->
+              <a
+                href="https://www.instagram.com/_saksham_kapil/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/SakshamKapil7" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-5 text-center">
+        <p class="pt-2 text-light" align="center">
+          Copyright ©2021 All rights reserved
+          
+        </p></div>
+
+    </footer>
+        
+<!---<div class="row first-section">
+           
+            <div class="col-lg-6 col-md-6 context">
+                <h1>Reach out to me !</h1>
+                <p>I am avalible in almost every social platform.<br>
+                    Discuss a project or just want to say hi ? My Inbox is always open for all.</p>
+              
+                    <a href="https://drive.google.com/file/d/1fUl3-3KZQbWz3x6eBLSC2qZboLyWgj6o/view?usp=sharing" target=_blank><button type="button" class="btn btn-primary btn-lg Resume">See my Resume</button></a>
+             </div>
+        </div>
+	--->	
+ 
+</body>
+</html>
